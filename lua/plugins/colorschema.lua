@@ -7,6 +7,7 @@ return {
     lazy = true,
     name = "catppuccin",
     opts = {
+      flavour = "latte",
       integrations = {
         aerial = true,
         alpha = true,
@@ -64,7 +65,17 @@ return {
   {
     "navarasu/onedark.nvim",
     opts = {
-      style = "warmer",
+      style = "light",
+    },
+  },
+  {
+    "tanvirtin/monokai.nvim",
+  },
+
+  {
+    "rebelot/kanagawa.nvim",
+    opts = {
+      theme = "wave",
     },
   },
 
@@ -72,7 +83,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "vscode",
+      colorscheme = "monokai",
     },
   },
 }
