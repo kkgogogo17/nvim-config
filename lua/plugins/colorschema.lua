@@ -46,16 +46,13 @@ return {
   },
 
   {
+    "nyoom-engineering/oxocarbon.nvim",
+  },
+
+  {
     "rmehri01/onenord.nvim",
   },
 
-<<<<<<< Updated upstream
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "onenord",
-=======
   {
     "mvpopuk/inspired-github.vim",
   },
@@ -89,7 +86,26 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "catppuccin",
->>>>>>> Stashed changes
+  {
+    "mvpopuk/inspired-github.vim",
+  },
+
+  {
+    "Mofiqul/vscode.nvim",
+  },
+
+  {
+    "navarasu/onedark.nvim",
+    opts = {
+      style = "warmer",
+    },
+  },
+
+  -- Configure LazyVim to load
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "vscode",
     },
   },
 }
