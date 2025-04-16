@@ -63,6 +63,19 @@ return {
             },
           },
         },
+        pyright = {
+          settings = {
+            pyright = {
+              disableOrganizeImports = true,
+            },
+            python = {
+              analysis = {
+                ignore = { "*" },
+                typeCheckingMode = "off",
+              },
+            },
+          },
+        },
       },
       setup = {}, -- Add an empty setup table
     }

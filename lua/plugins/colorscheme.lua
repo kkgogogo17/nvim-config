@@ -36,6 +36,11 @@ return {
       vim.cmd.colorscheme("everforest")
     end,
   },
+
+  { "projekt0n/github-nvim-theme", name = "github-theme" },
+  { "rebelot/kanagawa.nvim", name = "kanagawa" },
+  { "EdenEast/nightfox.nvim", name = "dayfox" },
+
   {
     "AlexvZyl/nordic.nvim",
     lazy = false,
@@ -44,11 +49,36 @@ return {
       require("nordic").load()
     end,
   },
+  {
+    "dgox16/oldworld.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "Yazeed1s/oh-lucy.nvim",
+    priority = 1000,
+  },
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    config = function()
+      vim.cmd("colorscheme rose-pine")
+    end,
+  },
+  {
+    "ribru17/bamboo.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("bamboo").setup({
+        -- optional configuration here
+      })
+      require("bamboo").load()
+    end,
+  },
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "sonokai",
-    },
+    opts = { sonaki },
   },
 }
