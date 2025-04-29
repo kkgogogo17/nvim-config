@@ -40,6 +40,9 @@ return {
   { "projekt0n/github-nvim-theme", name = "github-theme" },
   { "rebelot/kanagawa.nvim", name = "kanagawa" },
   { "EdenEast/nightfox.nvim", name = "dayfox" },
+  { "navarasu/onedark.nvim", name = "onedark" },
+  { "mhartington/oceanic-next", name = "oceanic-next" },
+  { "sainnhe/edge", name = "edge" },
 
   {
     "AlexvZyl/nordic.nvim",
