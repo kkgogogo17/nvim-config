@@ -79,9 +79,11 @@ return {
       require("bamboo").load()
     end,
   },
-  -- Configure LazyVim to load gruvbox
+  -- Configure LazyVim to load everforest
   {
     "LazyVim/LazyVim",
-    opts = { sonaki },
+    opts = {
+      colorscheme = "nordic",
+    },
   },
 }

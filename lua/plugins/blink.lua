@@ -1,15 +1,12 @@
 return {
-  "saghen/blink.cmp",
-  dependencies = {
-    "rafamadriz/friendly-snippets",
-    {
-      "saghen/blink.compat",
-      optional = true,
-      opts = {},
-      version = not vim.g.lazyvim_blink_main and "*",
+  {
+    "saghen/blink.cmp",
+    opts = {
+      completion = {
+        ghost_text = {
+          enabled = vim.g.ai_cmp,
+        },
+      },
     },
-  },
-  opts = {
-    completion = {},
   },
 }
