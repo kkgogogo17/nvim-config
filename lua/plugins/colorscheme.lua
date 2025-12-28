@@ -64,13 +64,16 @@ return {
     "ribru17/bamboo.nvim",
     lazy = false,
     priority = 1000,
-    config = function() end,
+    opts = {},
+    config = function(_, opts)
+      require("bamboo").setup(opts)
+    end,
   },
   -- Configure LazyVim to load everforest
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nordic",
+      colorscheme = "dayfox",
     },
   },
 }
