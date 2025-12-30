@@ -69,6 +69,11 @@ return {
       require("bamboo").setup(opts)
     end,
   },
+  {
+    "rmehri01/onenord.nvim",
+    lazy = false,
+    priority = 1000,
+  },
   -- Configure LazyVim to load everforest
   {
     "LazyVim/LazyVim",
