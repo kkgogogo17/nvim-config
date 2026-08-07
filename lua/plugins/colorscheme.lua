@@ -58,6 +58,8 @@ return {
   {
     "rose-pine/neovim",
     name = "rose-pine",
+    lazy = false,
+    priority = 1000,
     config = function() end,
   },
   {
@@ -74,11 +76,11 @@ return {
     lazy = false,
     priority = 1000,
   },
-  -- Configure LazyVim to load everforest
+  -- Configure LazyVim default colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "oh-lucy-evening",
+      colorscheme = "rose-pine",
     },
   },
 }
